@@ -9,7 +9,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("wmap.csv")
+data = pd.read_csv("wmap_n.csv")
 data.head()
 
 weights = data.pivot_table("w","y", "x" )
